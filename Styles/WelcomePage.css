@@ -1,0 +1,72 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#MenuContainer {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+#WelcomeHeader {
+    margin-top: 2vw;
+    font-size: 3vw;
+}
+
+#ButtonContainer {
+    align-self: center;
+    margin-top: 2vw;
+    width: 80%;
+    margin-left: 10%;
+}
+
+button {
+    font-size: 2vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+}
+
+#FruitChosen {
+    position: absolute;
+    height: 5vw;
+    width: 5vw;
+}
+
+#B1 {
+    position: relative;
+    top: 1vw;
+}
+
+#B2 {
+    position: relative;
+    top: 3vw;
+}
+
+#B3 {
+    position: relative;
+    top: 5vw;
+}
+
+#WelcomeImg {
+    position: absolute;
+    height: 30vw;
+    width: 21vw;
+    bottom: 0px;
+    right: 0px;
+}
+
+.animate {
+    animation: fall 5000ms;
+}
+
+@keyframes fall {
+    0%{top: 0vw}
+    100%{top: 65vw}
+
+    0%{rotate: 0deg}
+    100%{rotate: 720deg}
+}

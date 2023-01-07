@@ -1,0 +1,65 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#MenuContainer {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+#WelcomeHeader {
+    margin-top: 2vw;
+    font-size: 3vw;
+}
+
+#ButtonContainer {
+    align-self: center;
+    margin-top: 2vw;
+    width: 80%;
+    margin-left: 10%;
+}
+
+button {
+    font-size: 2vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#B1 {
+    position: relative;
+    top: 1vw;
+}
+
+#B2 {
+    position: relative;
+    top: 3vw;
+}
+
+#B3 {
+    position: relative;
+    top: 5vw;
+}
+
+#WelcomeImg {
+    position: absolute;
+    height: 30vw;
+    width: 21vw;
+    bottom: 0px;
+    right: 0px;
+}
+
+#leftLane {
+    width: 25vw;
+    float: left;
+}
+
+.fruit {
+    height: 5vw;
+    width: 5vw;
+}

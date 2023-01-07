@@ -1,0 +1,108 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#puzzleContainer {
+    margin-top: 3vw;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    float: left;
+    margin-left: 3vw;
+}
+  
+#puzzle {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-gap: 2px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+}
+
+
+.square {
+    min-height: 2vw;
+    min-width: 2vw;
+    font-size: 2vw;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: center;
+    background-color: white;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+    text-align: center;
+}
+
+#LevelName {
+    font-size: 3vw;
+}
+
+#Resources {
+    width: 50vw;
+    height: 45vw;
+    float: right;
+}
+
+#Resources p {
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+
+#caption {
+    font-size: 1.5vw;
+}
+
+#counter {
+    display: inline-flex;
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+#textContainer {
+    width: 30vw;
+    height: 10vw;
+    position: absolute;
+    top: 20vw;
+    left: 3vw;
+    font-size: x-large;
+}
+
+#objs {
+    font-size: auto;
+    font-weight: bold;
+}
+
+#messageIntro {
+    margin-top: 2vw;
+    font-weight: bolder;
+}
+
+#Translations {
+    margin-top: 2vw;
+    font-weight: bold;
+}
+
+#NextLevel {
+    position: absolute;
+    right: 1vw;
+    bottom: 1vw;
+    padding: 0.5vw;
+    font-size: 2vw;
+    height: auto;
+    width: auto;
+    border-radius: 0.5vw;
+    cursor: pointer;
+}
